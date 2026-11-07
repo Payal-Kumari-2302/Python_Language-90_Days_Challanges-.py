@@ -1,8 +1,3 @@
-# Python_Language-90_Days_Challanges-.py
-# Python_Language_Theory_-_Coding
-
-
-
 # 🐍 Python 90 Days Challenge
 
 🌟Welcome to my **90 Days Python Challenge** 🚀
@@ -229,7 +224,7 @@ By the end of this challenge, I aim to:
 
 **Duration:** 90 Days
 
-**Start Date:** 3 October 2026
+**Start Date:** 8 November 2026
 
 **Focus:** Python Theory + Coding + Problem Solving + Projects
 
