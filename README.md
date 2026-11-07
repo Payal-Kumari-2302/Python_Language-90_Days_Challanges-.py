@@ -2,7 +2,7 @@
 
 Welcome to my **Python 90 Days Challenge!** 🚀
 
-I started this journey on **3 October 2026** to improve my Python programming skills through daily learning, coding practice, and problem-solving.
+I started this journey on **8 November 2026** to improve my Python programming skills through daily learning, coding practice, and problem-solving.
 
 ## 🎯 Goals
 - Strengthen Python fundamentals.
