@@ -196,24 +196,7 @@ Example:
 ```python
 age = int(input("Enter age: "))
 ```
-
-**Q4. What are keywords in Python?**
-
-Answer: Keywords are reserved words that have predefined meanings in Python.
-
-Example: `if`, `else`, `for`, `while`.
-
-**Q5. What is the difference between keywords and identifiers?**
-
-Answer:
-- Keywords are reserved words.
-- Identifiers are user-defined names given to variables, functions and classes.
-
-**Q6. What are the rules for naming identifiers?**
-
-Answer: Identifiers must start with a letter or underscore, cannot start with a number, cannot contain spaces and cannot be hard keywords.
-
-**Q7. Are Python identifiers case-sensitive?**
+**Q4. Are Python identifiers case-sensitive?**
 
 Answer: Yes, Python treats uppercase and lowercase letters as different.
 
