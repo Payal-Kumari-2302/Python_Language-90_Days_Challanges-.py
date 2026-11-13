@@ -2,17 +2,47 @@
 
 **Topics:** Input Function, Keywords, Identifiers & Constants
 
+**Target:** BCA Students | TCS Ignite | TCS Smart Hiring | Wipro | Infosys | Accenture
+
+---
+
 ## 1. Input Function
 
-**Definition:** The `input()` function is used to take data from the user.
+**Definition:** The `input()` function is used to accept data from the user through the keyboard.
 
 **Example:**
+
 ```python
-name = input("Enter name: ")
+name = input("Enter your name: ")
 print(name)
 ```
 
-**Important:** `input()` always returns data as a string (`str`).
+**Important:** The `input()` function always returns data as a string (`str`).
+
+### Type Conversion with Input
+
+**Integer Input:**
+
+```python
+age = int(input("Enter your age: "))
+print(age)
+```
+
+**Float Input:**
+
+```python
+price = float(input("Enter price: "))
+print(price)
+```
+
+**Multiple Inputs:**
+
+```python
+a, b = map(int, input("Enter two numbers: ").split())
+print(a + b)
+```
+
+---
 
 ## 2. Keywords
 
@@ -22,35 +52,38 @@ print(name)
 
 | No. | Keyword | No. | Keyword |
 |---:|---|---:|---|
-| 1 | False | 19 | if |
-| 2 | None | 20 | import |
-| 3 | True | 21 | in |
-| 4 | and | 22 | is |
-| 5 | as | 23 | lambda |
-| 6 | assert | 24 | nonlocal |
-| 7 | async | 25 | not |
-| 8 | await | 26 | or |
-| 9 | break | 27 | pass |
-| 10 | class | 28 | raise |
-| 11 | continue | 29 | return |
-| 12 | def | 30 | try |
-| 13 | del | 31 | while |
-| 14 | elif | 32 | with |
-| 15 | else | 33 | yield |
-| 16 | except | 34 | finally |
-| 17 | for | 35 | from |
-| 18 | global | | |
+| 1 | `False` | 19 | `if` |
+| 2 | `None` | 20 | `import` |
+| 3 | `True` | 21 | `in` |
+| 4 | `and` | 22 | `is` |
+| 5 | `as` | 23 | `lambda` |
+| 6 | `assert` | 24 | `nonlocal` |
+| 7 | `async` | 25 | `not` |
+| 8 | `await` | 26 | `or` |
+| 9 | `break` | 27 | `pass` |
+| 10 | `class` | 28 | `raise` |
+| 11 | `continue` | 29 | `return` |
+| 12 | `def` | 30 | `try` |
+| 13 | `del` | 31 | `while` |
+| 14 | `elif` | 32 | `with` |
+| 15 | `else` | 33 | `yield` |
+| 16 | `except` | 34 | `finally` |
+| 17 | `for` | 35 | `from` |
+| 18 | `global` | | |
 
 ### 4 Soft Keywords
 
 | No. | Soft Keyword | Use |
 |---:|---|---|
-| 1 | match | Pattern matching |
-| 2 | case | Pattern matching |
-| 3 | _ | Wildcard in pattern matching |
-| 4 | type | Type alias declaration |
+| 1 | `match` | Pattern matching |
+| 2 | `case` | Pattern matching |
+| 3 | `_` | Wildcard in pattern matching |
+| 4 | `type` | Type alias declaration |
+
+**Total: 39 keywords (35 hard + 4 soft).**
 
 **Example:**
+
 ```python
 age = 18
 
@@ -58,15 +91,21 @@ if age >= 18:
     print("Eligible")
 ```
 
-Here, `if` is a keyword.
+Here, `if` is a hard keyword.
 
-**Important:** Hard keywords cannot be used as identifiers. Soft keywords have special meanings only in particular contexts.
+**Important Points:**
+- Hard keywords cannot be used as identifiers.
+- Soft keywords have special meanings only in particular contexts.
+- Python keywords are case-sensitive.
+
+---
 
 ## 3. Identifiers
 
 **Definition:** Identifiers are names given to variables, functions, classes and other objects.
 
 **Example:**
+
 ```python
 name = "Payal"
 age = 20
@@ -78,24 +117,53 @@ Here, `name` and `age` are identifiers.
 
 | Rule | Example |
 |---|---|
-| Must start with a letter or `_` | `name`, `_age` |
+| Must start with a letter or underscore | `name`, `_age` |
 | Cannot start with a number | `2name` ❌ |
 | Can contain numbers | `name2` |
 | Cannot contain spaces | `my name` ❌ |
-| Cannot use hard keywords | `class` ❌ |
-| Case-sensitive | `age` ≠ `Age` |
+| Cannot be a hard keyword | `class` ❌ |
+| Special characters are not allowed except `_` | `my-name` ❌ |
+| Identifiers are case-sensitive | `age` ≠ `Age` |
+
+### Case-Sensitive Example
+
+```python
+age = 20
+Age = 25
+
+print(age)
+print(Age)
+```
+
+**Output:**
+
+```text
+20
+25
+```
+
+---
 
 ## 4. Constants
 
 **Definition:** Constants are values intended to remain unchanged throughout a program.
 
 **Example:**
+
 ```python
 PI = 3.14159
 MAX_SIZE = 100
+
+print(PI)
+print(MAX_SIZE)
 ```
 
-**Important:** Python does not have a built-in keyword for declaring constants. Uppercase naming is a convention.
+**Important Points:**
+- Python does not have a built-in keyword to declare constants.
+- Uppercase names are used by convention for constants.
+- Python does not strictly prevent their values from being changed.
+
+---
 
 ## 5. Important Differences
 
@@ -105,100 +173,77 @@ MAX_SIZE = 100
 | Predefined meaning | Names program elements | Represents fixed values |
 | Example: `if` | Example: `age` | Example: `PI` |
 
-## 6. Practical Example
+---
 
-```python
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-
-PI = 3.14
-
-if age >= 18:
-    print("Eligible")
-else:
-    print("Not eligible")
-```
-
-## 7. Interview Preparation
+# 6. Interview Questions with Short Answers
 
 ### Priority 1 – Must Prepare
 
-1. What is the `input()` function?
-2. What is the default return type of `input()`?
-3. How do you take integer input?
-4. What are keywords in Python?
-5. What is the difference between keywords and identifiers?
-6. What are the rules for naming identifiers?
-7. Are Python identifiers case-sensitive?
-8. Does Python support constants?
+**Q1. What is the `input()` function?**
 
-2. What is the default return type of input()?
+Answer: The `input()` function is used to accept data from the user.
 
-Definition: The input() function always returns data as a string (str).
+**Q2. What is the default return type of `input()`?**
 
-Example:
+Answer: The default return type is `str` (string).
 
-age = input("Enter age: ")
-print(type(age))
+**Q3. How do you take integer input?**
 
-Output: <class 'str'>
-
-3. How do you take integer input?
-
-Definition: Use the int() function with input() to convert user input into an integer.
+Answer: By using `int()` with the `input()` function.
 
 Example:
 
+```python
 age = int(input("Enter age: "))
-print(age)
+```
 
-7. Are Python identifiers case-sensitive?
+**Q4. What are keywords in Python?**
 
-Definition: Yes, Python treats uppercase and lowercase letters as different.
+Answer: Keywords are reserved words that have predefined meanings in Python.
 
-Example:
+Example: `if`, `else`, `for`, `while`.
 
-age = 20
-Age = 25
+**Q5. What is the difference between keywords and identifiers?**
 
-print(age)
-print(Age)
+Answer:
+- Keywords are reserved words.
+- Identifiers are user-defined names given to variables, functions and classes.
 
-Output:
+**Q6. What are the rules for naming identifiers?**
 
-20
-25
+Answer: Identifiers must start with a letter or underscore, cannot start with a number, cannot contain spaces and cannot be hard keywords.
 
-8. Does Python support constants?
+**Q7. Are Python identifiers case-sensitive?**
 
-Definition: Python does not have a built-in keyword to declare constants. Uppercase names are used by convention for values that should not change.
+Answer: Yes, Python treats uppercase and lowercase letters as different.
 
-Example:
+Example: `age` and `Age` are different identifiers.
 
-PI = 3.14159
-MAX_SIZE = 100
+**Q8. Does Python support constants?**
 
-Here, PI and MAX_SIZE are constants by convention.
+Answer: Python does not have a built-in constant declaration keyword. Uppercase names are used by convention.
 
-### Practical Questions
+Example: `PI = 3.14`
 
-1. Write a program to take two numbers as input and print their sum.
-2. Identify valid and invalid identifiers.
-3. Write a program using `input()`, `if` and `else`.
+---
+
+# 7. Practical Interview Questions with Solutions
 
 ### Q1. Write a program to take two numbers as input and print their sum.
 
 **Solution:**
+
 ```python
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
-sum = a + b
+total = a + b
 
-print("Sum =", sum)
+print("Sum =", total)
 ```
 
-**Example Output:**
+**Output:**
+
 ```text
 Enter first number: 10
 Enter second number: 20
@@ -206,8 +251,6 @@ Sum = 30
 ```
 
 ### Q2. Identify valid and invalid identifiers.
-
-**Question:** Identify which identifiers are valid or invalid.
 
 | Identifier | Answer | Reason |
 |---|---|---|
@@ -225,6 +268,7 @@ Sum = 30
 ### Q3. Write a program using `input()`, `if` and `else`.
 
 **Solution:**
+
 ```python
 age = int(input("Enter your age: "))
 
@@ -234,23 +278,42 @@ else:
     print("You are not eligible to vote.")
 ```
 
-**Example Output 1:**
+**Output 1:**
+
 ```text
 Enter your age: 20
 You are eligible to vote.
 ```
 
-**Example Output 2:**
+**Output 2:**
+
 ```text
 Enter your age: 15
 You are not eligible to vote.
 ```
 
 **Concepts Used:**
-- `input()` – Takes user input.
-- `int()` – Converts input into an integer.
-- `if` – Checks a condition.
-- `else` – Executes when the condition is false.
+
+| Function/Keyword | Purpose |
+|---|---|
+| `input()` | Takes user input |
+| `int()` | Converts input into integer |
+| `if` | Checks a condition |
+| `else` | Executes when condition is false |
 
 ---
-**Target:** BCA Freshers | TCS Ignite | TCS Smart Hiring | Wipro | Infosys | Accenture
+
+## 8. Important Revision Points
+
+1. `input()` always returns a string.
+2. `int()` converts a value into an integer.
+3. Python 3.14 has 35 hard keywords and 4 soft keywords.
+4. Keywords cannot be used as identifiers.
+5. Identifiers are case-sensitive.
+6. Identifiers cannot start with numbers.
+7. Python does not have a built-in constant declaration keyword.
+8. Uppercase naming is the convention for constants.
+
+---
+
+**Day 04 Completed – Python Input Function, Keywords, Identifiers & Constants.**
