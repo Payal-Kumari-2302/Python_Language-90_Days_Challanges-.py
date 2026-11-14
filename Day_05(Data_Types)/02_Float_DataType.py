@@ -8,3 +8,6 @@ c = 30.5
 avg = (a + b + c) / 3
 
 print("Average:", avg)
+
+
+Output: Average: 20.5
