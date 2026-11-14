@@ -4,7 +4,6 @@
 **Operators:** `+, -, *, /, %, //, **`
 
 ### A. Direct Method
-```python
 a = 10
 b = 3
 
@@ -26,7 +25,7 @@ print(power)
 ```
 
 ### Output
-```text
+
 13
 7
 30
@@ -37,7 +36,7 @@ print(power)
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter 1st Number: "))
 b = int(input("Enter 2nd Number: "))
 
@@ -59,13 +58,13 @@ print("Exponentiation:", power)
 ```
 
 ### Sample Input
-```text
+
 Enter 1st Number: 10
 Enter 2nd Number: 3
 ```
 
 ### Output
-```text
+
 Addition: 13
 Subtraction: 7
 Multiplication: 30
@@ -76,7 +75,7 @@ Exponentiation: 1000
 ```
 
 ### C. Mathematical Functions
-```python
+
 x = 3.14
 y = -4
 z = 5
@@ -95,7 +94,7 @@ print(result5)
 ```
 
 ### Output
-```text
+
 3
 4
 64
@@ -104,7 +103,7 @@ print(result5)
 ```
 
 ### D. Math Module
-```python
+
 import math
 
 print(math.pi)
@@ -119,7 +118,7 @@ print(math.factorial(5))
 ```
 
 ### Output
-```text
+
 3.141592653589793
 2.718281828459045
 10
@@ -134,7 +133,7 @@ print(math.factorial(5))
 **Operators:** `=, +=, -=, *=, /=, //=, %=, **=`
 
 ### A. Direct Method
-```python
+
 a = 10
 
 a += 5
@@ -160,7 +159,7 @@ print(a)
 ```
 
 ### Output
-```text
+
 15
 12
 24
@@ -171,7 +170,7 @@ print(a)
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter a number: "))
 
 a += 5
@@ -197,7 +196,7 @@ print("Exponentiation Assignment:", a)
 ```
 
 ### Sample Input
-```text
+
 Enter a number: 10
 ```
 
@@ -218,7 +217,7 @@ Exponentiation Assignment: 0.0
 **Operators:** `==, !=, >, <, >=, <=`
 
 ### A. Direct Method
-```python
+
 a = 10
 b = 5
 
@@ -231,7 +230,7 @@ print(a <= b)
 ```
 
 ### Output
-```text
+
 False
 True
 True
@@ -241,7 +240,7 @@ False
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter 1st Number: "))
 b = int(input("Enter 2nd Number: "))
 
@@ -254,13 +253,12 @@ print("Smaller or Equal:", a <= b)
 ```
 
 ### Sample Input
-```text
+
 Enter 1st Number: 10
 Enter 2nd Number: 5
 ```
 
 ### Output
-```text
 Equal: False
 Not Equal: True
 Greater: True
@@ -269,13 +267,12 @@ Greater or Equal: True
 Smaller or Equal: False
 ```
 
----
 
 # 4. Logical Operators
 **Operators:** `and, or, not`
 
 ### A. Direct Method
-```python
+
 a = 10
 b = 5
 
@@ -285,14 +282,14 @@ print(not(a > 5))
 ```
 
 ### Output
-```text
+
 True
 True
 False
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter a number: "))
 
 print(a > 0 and a < 100)
@@ -301,12 +298,12 @@ print(not(a > 0))
 ```
 
 ### Sample Input
-```text
+
 Enter a number: 10
 ```
 
 ### Output
-```text
+
 True
 False
 False
@@ -318,7 +315,7 @@ False
 **Operators:** `&, |, ^, ~, <<, >>`
 
 ### A. Direct Method
-```python
+
 a = 10
 b = 3
 
@@ -331,7 +328,7 @@ print(a >> 2)   # Right Shift
 ```
 
 ### Output
-```text
+
 2
 11
 9
@@ -341,7 +338,7 @@ print(a >> 2)   # Right Shift
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter 1st Number: "))
 b = int(input("Enter 2nd Number: "))
 
@@ -354,13 +351,13 @@ print("Right Shift:", a >> 2)
 ```
 
 ### Sample Input
-```text
+
 Enter 1st Number: 10
 Enter 2nd Number: 3
 ```
 
 ### Output
-```text
+
 AND: 2
 OR: 11
 XOR: 9
@@ -375,7 +372,7 @@ Right Shift: 2
 **Operators:** `in, not in`
 
 ### A. Direct Method
-```python
+
 numbers = [10, 20, 30, 40, 50]
 
 print(20 in numbers)
@@ -386,7 +383,7 @@ print(60 not in numbers)
 ```
 
 ### Output
-```text
+
 True
 False
 False
@@ -394,7 +391,7 @@ True
 ```
 
 ### B. User Input Method
-```python
+
 numbers = [10, 20, 30, 40, 50]
 
 a = int(input("Enter a number: "))
@@ -404,18 +401,18 @@ print("Not Present:", a not in numbers)
 ```
 
 ### Sample Input
-```text
+
 Enter a number: 20
 ```
 
 ### Output
-```text
+
 Present: True
 Not Present: False
 ```
 
 ### C. String Example
-```python
+
 name = "Python Programming"
 
 print("Python" in name)
@@ -425,7 +422,7 @@ print("Java" not in name)
 ```
 
 ### Output
-```text
+
 True
 False
 True
@@ -437,7 +434,7 @@ True
 **Operators:** `is, is not`
 
 ### A. Direct Method
-```python
+
 a = [10, 20, 30]
 b = a
 c = [10, 20, 30]
@@ -450,7 +447,7 @@ print(a is not c)
 ```
 
 ### Output
-```text
+
 True
 False
 False
@@ -458,7 +455,7 @@ True
 ```
 
 ### B. User Input Method
-```python
+
 a = int(input("Enter 1st Number: "))
 b = int(input("Enter 2nd Number: "))
 
@@ -472,7 +469,7 @@ print(x is not y)
 **Note:** Integer identity results can depend on Python implementation and object caching. Use `==` for comparing numerical values.
 
 ### C. None Example
-```python
+
 x = None
 y = 10
 
@@ -482,7 +479,7 @@ print(x is not None)
 ```
 
 ### Output
-```text
+
 True
 False
 True
