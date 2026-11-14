@@ -104,16 +104,7 @@ Output: `<class 'int'>`
 - Mutable: Values can be changed after creation.
 - Immutable: Values cannot be changed after creation.
 
-| Mutable | Immutable |
-|---|---|
-| List | Integer |
-| Dictionary | Float |
-| Set | Complex |
-| Bytearray | String |
-| | Tuple |
-| | Boolean |
-| | Frozenset |
-| | Bytes |
+
 
 ### 18. What is the difference between List and Tuple?
 
