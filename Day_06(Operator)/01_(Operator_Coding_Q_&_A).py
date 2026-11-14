@@ -201,7 +201,7 @@ Enter a number: 10
 ```
 
 ### Output
-```text
+
 Addition Assignment: 15
 Subtraction Assignment: 13
 Multiplication Assignment: 26
