@@ -11,3 +11,6 @@ while num > 0:
     num //= 10
 
 print("Sum:", total)
+
+
+Output: Sum: 10
