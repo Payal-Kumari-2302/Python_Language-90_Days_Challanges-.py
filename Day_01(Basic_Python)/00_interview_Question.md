@@ -46,15 +46,18 @@ print(x)
 print(name)
 ```
 
-### Q5. What are the advantages of Python?
+### Q5. What are the advantages and Disadvantages of Python?
 
 **Answer:**
-
+- Advantages :-
 - Easy to read and write.
 - Requires fewer lines of code.
 - Provides large library support.
 - Free and open-source.
 - Supports multiple programming paradigms.
+
+- Disadvantages :-
+-Python is slower than languages like C and C++ and consumes more memory. It is also less suitable for mobile app development and low-level programming.
 
 **Example:**
 ```python
