@@ -134,3 +134,50 @@ print("Hello World")
 5. Jupyter Notebook
 
 **Example:** We can write and execute Python programs using VS Code.
+
+
+# 11 What is Compiler and  Interpreter
+
+## 1. Compiler
+
+**Definition:** A compiler translates the entire source code into machine code before executing the program.
+
+**Examples:** C, C++.
+
+**Real-World Example:** Like translating an entire book into another language before reading it.
+
+
+## 2. Interpreter
+
+**Definition:** An interpreter translates and executes source code statement by statement (or in smaller units).
+
+**Examples:** Python, JavaScript.
+
+**Real-World Example:** Like translating a book sentence by sentence while reading it.
+
+## 3. Difference Between Compiler and Interpreter
+
+| Basis | Compiler | Interpreter |
+|---|---|---|
+| Translation | Translates the entire program before execution. | Translates and executes code in smaller units. |
+| Execution Speed | Generally faster. | Generally slower. |
+| Error Detection | Reports errors during compilation. | Reports errors during execution. |
+| Output | Often generates an executable file. | Generally executes instructions without creating a standalone executable. |
+| Memory | May require more memory for generated code. | Depends on the interpreter and execution environment. |
+| Examples | C, C++ | Python, JavaScript |
+
+## 4. How Does Python Work?
+
+Python is commonly known as an interpreted language.
+
+**Python Execution Process:**
+
+`Python Source Code (.py) → Bytecode (.pyc) → Python Virtual Machine (PVM) → Output`
+
+- **Source Code:** Code written by the programmer.
+- **Bytecode:** An intermediate representation of Python code.
+- **PVM:** Executes Python bytecode.
+- **Output:** Displays the program's result.
+
+**Important:** Python (CPython) first compiles source code into bytecode, then the Python Virtual Machine executes it.
+
