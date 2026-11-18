@@ -57,7 +57,7 @@ print(name)
 - Supports multiple programming paradigms.
 
 - Disadvantages :-
--Python is slower than languages like C and C++ and consumes more memory. It is also less suitable for mobile app development and low-level programming.
+- Python is slower than languages like C and C++ and consumes more memory. It is also less suitable for mobile app development and low-level programming.
 
 **Example:**
 ```python
