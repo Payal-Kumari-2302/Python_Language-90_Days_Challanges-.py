@@ -246,6 +246,110 @@ print(text.partition("is"))
 
 print(text.partition("easy"))
 
+
+# Q28. isdecimal()
+text = "123"
+print(text.isdecimal())
+
+# Output:
+# True
+
+
+# Q29. isascii()
+text = "Payal123"
+print(text.isascii())
+
+# Output:
+# True
+
+
+# Q30. isidentifier()
+text = "payal_2302"
+print(text.isidentifier())
+
+# Output:
+# True
+
+
+# Q31. removeprefix()
+text = "Python Programming"
+print(text.removeprefix("Python "))
+
+# Output:
+# Programming
+
+
+# Q32. removesuffix()
+text = "Payal.pdf"
+print(text.removesuffix(".pdf"))
+
+# Output:
+# Payal
+
+
+# Q33. center()
+text = "Payal"
+print(text.center(11, "*"))
+
+# Output:
+# ***Payal***
+
+
+# Q34. ljust()
+text = "Payal"
+print(text.ljust(10, "*"))
+
+# Output:
+# Payal*****
+
+
+# Q35. rjust()
+text = "Payal"
+print(text.rjust(10, "*"))
+
+# Output:
+# *****Payal
+
+
+# Q36. expandtabs()
+text = "Python\tProgramming"
+print(text.expandtabs(4))
+
+# Output:
+# Python  Programming
+
+
+# Q37. rindex()
+text = "Python Programming"
+print(text.rindex("P"))
+
+# Output:
+# 7
+
+
+# Q38. rpartition()
+text = "Python is easy"
+print(text.rpartition("is"))
+
+# Output:
+# ('Python ', 'is', ' easy')
+
+
+# Q39. splitlines()
+text = "Python\nJava\nC++"
+print(text.splitlines())
+
+# Output:
+# ['Python', 'Java', 'C++']
+
+
+# Q40. zfill()
+text = "25"
+print(text.zfill(6))
+
+# Output:
+# 000025
+
 # Output:
 # ('PYthon ', 'is', ' easy')
 # ('PYthon is ', 'easy', '')
