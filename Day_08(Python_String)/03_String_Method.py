@@ -343,13 +343,3 @@ print(text.splitlines())
 # ['Python', 'Java', 'C++']
 
 
-# Q40. zfill()
-text = "25"
-print(text.zfill(6))
-
-# Output:
-# 000025
-
-# Output:
-# ('PYthon ', 'is', ' easy')
-# ('PYthon is ', 'easy', '')
