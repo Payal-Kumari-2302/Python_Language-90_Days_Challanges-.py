@@ -1,134 +1,251 @@
-#String methods
+
+# String Methods
 
 
-
-#Q1. lower()
+# Q1. lower()
 text = "PAYAL"
 print(text.lower())
 
-#Q2. upper()
+# Output:
+# payal
+
+
+# Q2. upper()
 text = "payal"
 print(text.upper())
 
-#Q3. capitalize()
+# Output:
+# PAYAL
+
+
+# Q3. capitalize()
 text = "payal"
 print(text.capitalize())
 
-#Q4.title()
+# Output:
+# Payal
+
+
+# Q4. title()
 text = "python programming language"
 print(text.title())
 
-#Q5. strip()
+# Output:
+# Python Programming Language
+
+
+# Q5. strip()
 text = " Payal "
 print(text.strip())
 
-#Q6.lstrip()
+# Output:
+# Payal
+
+
+# Q6. lstrip()
 text = " Payal "
 print(text.lstrip())
 
-#Q7 rstrip()
+# Output:
+# Payal 
+
+
+# Q7. rstrip()
 text = " Payal "
 print(text.rstrip())
 
-#Q8 replace(old,new)
-text = "I like java"
-print(text.replace("java","Python"))
+# Output:
+#  Payal
 
-#Q9 find()
+
+# Q8. replace(old, new)
+text = "I like java"
+print(text.replace("java", "Python"))
+
+# Output:
+# I like Python
+
+
+# Q9. find()
 text = "Payal"
 print(text.find("y"))
 
-#Q10_count()
+# Output:
+# 1
+
+
+# Q10. count()
 text = "Payal"
 print(text.count("l"))
 
+# Output:
+# 1
 
-#Q11 startwith()
+
+# Q11. startswith()
 text = "Payal"
 print(text.startswith("P"))
 print(text.startswith("p"))
 print(text.startswith("M"))
 print(text.startswith("m"))
 
-#Q12_endwith()
+# Output:
+# True
+# False
+# False
+# False
+
+
+# Q12. endswith()
 text = "Payal"
 print(text.endswith("l"))
 print(text.endswith("L"))
 print(text.endswith("j"))
 print(text.endswith("J"))
 
-#Q13_split()
+# Output:
+# True
+# False
+# False
+# False
+
+
+# Q13. split()
 text = "Payal Kumari Jaiswal"
 print(text.split())
 
-#Q14_join()
-text = "Payal", "Kumari","Jaiswal"
+# Output:
+# ['Payal', 'Kumari', 'Jaiswal']
+
+
+# Q14. join()
+text = "Payal", "Kumari", "Jaiswal"
 print(" ".join(text))
 
-#Q15 isalpha()
+# Output:
+# Payal Kumari Jaiswal
+
+
+# Q15. isalpha()
 text = "Payal"
 print(text.isalpha())
 
-#Q16 isdigit
+# Output:
+# True
+
+
+# Q16. isdigit()
 text = "123"
 print(text.isdigit())
 
-#Q17_isanum
+# Output:
+# True
+
+
+# Q17. isalnum()
 text = "Payal2302"
 print(text.isalnum())
 
-#Q18_swapcase
+# Output:
+# True
+
+
+# Q18. swapcase()
 text = "Payal"
 print(text.swapcase())
 
-#Q19_index()
+# Output:
+# pAYAL
+
+
+# Q19. index()
 text = "Payal"
 print(text.index("y"))
 
-#Q20_isnumeric
+# Output:
+# 1
+
+
+# Q20. isnumeric()
 text = "Payal2302"
 print(text.isnumeric())
 
+# Output:
+# False
 
-#Q21_isspace()
+
+# Q21. isspace()
 text = "Payal"
 print(text.isspace())
 
 text = " "
 print(text.isspace())
 
-#Q22_islower  
+# Output:
+# False
+# True
+
+
+# Q22. islower()
 text = "payal"
 print(text.islower())
 
-#Q23_isupper
+# Output:
+# True
+
+
+# Q23. isupper()
 text = "PAYAl"
 print(text.isupper())
 
-#Extra
+# Output:
+# False
+
+
+# Extra: islower() and isupper()
 text = "pAyaL"
 print(text.islower())
 print(text.isupper())
 
+# Output:
+# False
+# False
 
-#24_istitle
-text ="Payal Kumari Jaiswal"
+
+# Q24. istitle()
+text = "Payal Kumari Jaiswal"
 print(text.istitle())
 
-text ="Payal kumari Jaiswal"
+text = "Payal kumari Jaiswal"
 print(text.istitle())
 
-#Q25_rfind()
+# Output:
+# True
+# False
+
+
+# Q25. rfind()
 text = "Payal Kumari Jaiswal"
 print(text.rfind("Jaiswal"))
 
+# Output:
+# 12
 
-#Q26_zfill()
+
+# Q26. zfill()
 text = "25"
 print(text.zfill(5))
 
-#Q27_Partition
+# Output:
+# 00025
+
+
+# Q27. partition()
 text = "PYthon is easy"
 print(text.partition("is"))
 
 print(text.partition("easy"))
+
+# Output:
+# ('PYthon ', 'is', ' easy')
+# ('PYthon is ', 'easy', '')
